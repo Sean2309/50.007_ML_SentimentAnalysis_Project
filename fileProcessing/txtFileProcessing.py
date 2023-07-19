@@ -59,5 +59,5 @@ testFile = processedFile
 
 d = calcCountofEachWord(testFile)
 emissionResult, d1 = calcEmission(d)
-print(d1)
-print(emissionResult)
+print(f"Dict for each label and its respective emission value: \n{d1}")
+print(f"\n###################\nFinal Emission Result: {emissionResult}\n####################")
