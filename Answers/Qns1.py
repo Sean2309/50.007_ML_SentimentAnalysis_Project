@@ -53,11 +53,14 @@ filePath = "../Data/ES/train"
 
 ## Calling Functions
 rawFile = readFile(filePath)
-processedFile = processFile(rawFile)[0:50]
+processedFile = processFile(rawFile)
+print(processedFile)
 
-testFile = processedFile
+# testFile = processedFile
 
-d = calcCountofEachWord(testFile)
-emissionResult, d1 = calcEmission(d)
-print(f"Dict for each label and its respective emission value: \n{d1}")
-print(f"\n###################\nFinal Emission Result: {emissionResult}\n####################")
+# d = calcCountofEachWord(testFile)
+# print(d)
+# print("####################")
+# emissionResult, d1 = calcEmission(d)
+# print(f"Dict for each label and its respective emission value: \n{d1}")
+# print(f"\n###################\nFinal Emission Result: {emissionResult}\n####################")
