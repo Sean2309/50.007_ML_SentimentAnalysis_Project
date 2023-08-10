@@ -225,6 +225,7 @@ if len(sys.argv) < 3:
 gold = open(sys.argv[1], "r", encoding='UTF-8')
 prediction = open(sys.argv[2], "r", encoding='UTF-8')
 
+
 #column separator
 separator = ' '
 
